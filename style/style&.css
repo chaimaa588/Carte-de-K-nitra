@@ -1,0 +1,122 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f1e9; /* Couleur crème pour l'arrière-plan */
+    color: #4a2c2a; /* Marron foncé pour le texte */
+    margin: 20px;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #ffffff; /* Blanc pour le texte */
+    background-color: #6f4e37; /* Marron moyen */
+    padding: 15px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Highlight for "Welcome to Kenitra" */
+mark {
+    background-color: #d3b69d; /* Marron clair */
+    padding: 5px;
+    font-style: italic;
+}
+
+/* Paragraph Styling */
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #b59b8c; /* Bordure marron clair */
+}
+
+table th {
+    background-color: #6f4e37; /* Marron moyen */
+    color: #ffffff; /* Blanc pour le texte */
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f4eae4; /* Fond crème pour les lignes paires */
+}
+
+table tr:hover {
+    background-color: #d3b69d; /* Marron clair pour l'effet hover */
+}
+
+table td {
+    color: #4a2c2a; /* Marron foncé */
+}
+
+/* Links Styling */
+a {
+    color: #6f4e37; /* Marron moyen */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4a2c2a; /* Marron foncé pour le survol */
+    text-decoration: underline;
+}
+
+/* Footer Links */
+h4 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4a2c2a; /* Marron foncé */
+}
+
+/* Section Styling */
+div {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Blanc pour le fond des sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Ordered List Styling */
+ol {
+    margin-left: 40px;
+    list-style: decimal inside;
+}
+
+ol li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #4a2c2a; /* Marron foncé */
+}
+
+/* Interactive Links Section */
+h3 {
+    color: #6f4e37; /* Marron moyen */
+    margin-top: 20px;
+}
+
+/* Button or Link Hover Effect */
+a:hover {
+    color: #b59b8c; /* Marron clair pour un effet subtil */
+}
