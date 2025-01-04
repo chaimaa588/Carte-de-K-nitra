@@ -1,1 +1,0 @@
-var json_GaredeKenitra_1 = {"type":"FeatureCollection","name":"GaredeKenitra_1","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":null,"nom":"Gare de kenitra","X":390952.0,"Y":406416.0},"geometry":{"type":"Point","coordinates":[-6.582552783196037,34.251538216720412]}}]}
